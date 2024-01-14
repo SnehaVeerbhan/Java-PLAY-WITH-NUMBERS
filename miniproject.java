@@ -1,6 +1,8 @@
 import java.util.Scanner;
-public class miniproject {
-    public static void main(String[]args){
+public class miniproject 
+{
+    public static void main(String[]args)
+    {
         //mini project
         Scanner sc =new Scanner(System.in);
         int mynum = (int)(Math.random()*1000);
@@ -13,7 +15,6 @@ public class miniproject {
         {
             System.out.println("WOWWWWW..CORRECT NUMBER!!!!");
             break;
-
         }
         else if(usernum>mynum){
             System.out.println("Your number is too LARGE ");
@@ -21,7 +22,9 @@ public class miniproject {
         else
         {
             System.out.println("Your number is too SMALL");
-        }}while(usernum>=0);{
+        }
+        }
+            while(usernum>=0);{
             System.out.print("My number was:");
             System.out.println(mynum);
         }
